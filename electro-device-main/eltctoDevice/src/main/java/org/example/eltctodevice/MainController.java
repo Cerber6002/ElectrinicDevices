@@ -1,4 +1,5 @@
 package org.example.eltctodevice;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -85,6 +86,17 @@ public class MainController {
         } else {
             label3.setText("No item selected.");
         }
+    }
+
+    @FXML
+    public void clearFields(ActionEvent event) {
+        // Очищаем все текстовые поля
+        nameoutput.clear();
+        priceoutput.clear();
+        weightoutput.clear();
+        lab1output.clear();
+        lab2output.clear();
+        label3.setText("Fields cleared.");
     }
 
     @FXML

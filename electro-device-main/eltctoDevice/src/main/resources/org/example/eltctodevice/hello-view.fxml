@@ -31,13 +31,14 @@
                   <TextField fx:id="priceoutput" layoutX="214.0" layoutY="167.0" promptText="Enter price (double)" />
                   <TextField fx:id="lab1output" layoutX="214.0" layoutY="217.0" />
                   <TextField fx:id="lab2output" layoutX="214.0" layoutY="263.0" />
-                  <Button layoutX="26.0" layoutY="322.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: Black;" text="Add" textAlignment="CENTER" textFill="WHITE" />
-                  <Button layoutX="214.0" layoutY="322.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: Black;" text="Delete" textFill="WHITE" />
+                  <Button layoutX="26.0" layoutY="322.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: Black;" text="Add" textAlignment="CENTER" textFill="WHITE" />
+                  <Button layoutX="244.0" layoutY="322.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: Black;" text="Delete" textFill="WHITE" />
                   <Label fx:id="lab1" layoutX="26.0" layoutY="220.0" prefHeight="18.0" prefWidth="26.0" style="-fx-background-color: Black;" text="size" textAlignment="CENTER" textFill="WHITE" />
                   <Label fx:id="lab2" layoutX="27.0" layoutY="262.0" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: Black;" text="ScreenSize " textFill="WHITE" />
                   <Label layoutX="26.0" layoutY="77.0" prefHeight="18.0" prefWidth="36.0" style="-fx-background-color: Black;" text="Name" textAlignment="CENTER" textFill="WHITE" />
                   <Label layoutX="26.0" layoutY="122.0" style="-fx-background-color: Black;" text="weight" textFill="WHITE" />
                   <Label layoutX="26.0" layoutY="171.0" style="-fx-background-color: Black;" text="price" textFill="WHITE" />
+                  <Button layoutX="154.0" layoutY="322.0" mnemonicParsing="false" onAction="#clearFields" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: black;" text="Clear" textFill="WHITE" />
                </children>
             </AnchorPane>
             <AnchorPane prefHeight="490.0" prefWidth="362.0" style="-fx-background-color: green;" GridPane.columnIndex="1">
