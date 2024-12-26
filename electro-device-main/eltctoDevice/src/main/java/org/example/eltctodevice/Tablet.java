@@ -1,42 +1,50 @@
 package org.example.eltctodevice;
-public class Tablet extends Device{
-    protected double Batterycapacity;
-    protected boolean operatingsystem;
-    public Tablet(String name, double price, double weight, double batteryLife, boolean hasStylus) {
 
+public class Tablet extends Device {
+    protected double batteryCapacity;
+    protected boolean hasStylus;
+
+    public Tablet(String name, double price, double weight, double batteryCapacity, boolean hasStylus) {
+        super(Devicetype.TABLET, name, price, weight);
+        this.batteryCapacity = batteryCapacity;
+        this.hasStylus = hasStylus;
     }
+
     public Tablet(Devicetype type, String name, double price, double weight) {
-
         super(type, name, price, weight);
     }
-    public Tablet(Devicetype type, String name, double price, double weight, double Batterycapacity, boolean operatingsystem) {
+
+    public Tablet(Devicetype type, String name, double price, double weight, double batteryCapacity, boolean hasStylus) {
         super(type, name, price, weight);
-        this.Batterycapacity = Batterycapacity;
-        this.operatingsystem = operatingsystem;
+        this.batteryCapacity = batteryCapacity;
+        this.hasStylus = hasStylus;
     }
-    public double getBatterycapacity() {
 
-        return Batterycapacity;
+    public double getBatteryCapacity() {
+        return batteryCapacity;
     }
-    public void setBatterycapacity(double Batterycapacity) {
 
-        this.Batterycapacity = Batterycapacity;
+    public void setBatteryCapacity(double batteryCapacity) {
+        this.batteryCapacity = batteryCapacity;
     }
-    public boolean isoperatingsystem() {
-        return operatingsystem;
+
+    public boolean hasStylus() {
+        return hasStylus;
     }
-    public void setoperatingsystem(boolean operatingsystem) {
-        this.operatingsystem = operatingsystem;
+
+    public void setHasStylus(boolean hasStylus) {
+        this.hasStylus = hasStylus;
     }
+
     @Override
     public String toString() {
         return "Tablet" +
                 "type=" + type +
-                ", name= '" + name + '\'' +
+                ", name='" + name + '\'' +
                 ", price=" + price + "$" +
                 ", weight=" + weight +
-                ", Batterycapacity=" + Batterycapacity +
-                ", operatingsystem=" + operatingsystem
-                ;
+                ", batteryCapacity=" + batteryCapacity +
+                ", hasStylus=" + hasStylus +
+                '}';
     }
 }
