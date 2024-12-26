@@ -40,18 +40,10 @@ This project demonstrates inheritance, encapsulation, and GUI development using 
 
 ---
 
-### **Installation**
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/GairatbekovKasymbek/Assignment8.git
-
 ---
 
 # Usage Instructions
-![image](https://github.com/user-attachments/assets/45c71be5-0b9a-4093-a8fc-9d2322ec88cd)
-![image](https://github.com/user-attachments/assets/9982f8b7-5097-4b6f-842a-ffbcf18c7082)
-![image](https://github.com/user-attachments/assets/ab747ef4-025c-4dc6-96e6-f0bee4b7d099)
+
 
 ---
 
