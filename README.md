@@ -43,8 +43,11 @@ This project demonstrates inheritance, encapsulation, and GUI development using 
 ---
 
 # Usage Instructions
-
-
+- **Smartphone**: ![Smartphone](Screens/Smartphone.png)
+- **Clear**: ![Clear](Screens/Clearbutton.png)
+- **Tablet**: ![Tablet](Screens/Tablet.png)
+- **Laptop**: ![Laptop](Screens/Laptop.png)
+- **Delete**: ![Delete](Screens/Deletebutton.png)
 ---
 
 # Sample Inputs
