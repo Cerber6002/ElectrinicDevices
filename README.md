@@ -53,7 +53,7 @@ This project demonstrates inheritance, encapsulation, and GUI development using 
 - **Price: 999.99**
 - **Weight: 174.0**
 - **Screen Size: 6.1**
-- **Camera Resolution: 12.0**
+- **Hertz: 120**
 
 
 **Laptop:**
